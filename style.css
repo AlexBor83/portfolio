@@ -292,3 +292,72 @@ input[type='radio'].visually-hidden {
   justify-content: flex-start;
   padding-left: 14px;
 }
+
+.form__wrap {
+  max-width: 1000px;
+  border-radius: 32px;
+  border: 1px solid #f5fa93;
+  padding: 32px;
+  margin: 64px auto;
+}
+
+.form__img {
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.form__title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+fieldset {
+  border: none;
+  width: 45%;
+  padding: 0;
+  margin: 0;
+}
+
+.form__legend {
+  font-size: 18px;
+  line-height: 144%;
+  margin-bottom: 24px;
+}
+
+.form__input,
+.form__select,
+.form__text {
+  width: 100%;
+  border-radius: 18px;
+  background: #fff;
+  min-height: 61px;
+  padding-left: 14px;
+  margin-bottom: 18px;
+}
+
+.form__input::placeholder,
+.form__text::placeholder {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  color: #76757b;
+}
+
+.form__button {
+  background-color: inherit;
+  border-color: #333;
+  color: #fff;
+  width: 180px;
+}
+
+.form__button::after {
+  background-image: url(/img/icon-form.svg);
+}
+
+.form__button:hover {
+  background-color: #f5fa93;
+  color: #000;
+}

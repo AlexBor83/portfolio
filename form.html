@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link href="/normalize.css" rel="stylesheet">
+  <link href="/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <main>
+    <div class="form__wrap">
+      <img src="img/logo-smile.svg" class="form__img" width="80" height="40" alt="Смайлик">
+      <h3 class="form__title">
+        Обратная связь
+      </h3>
+      <form action="" method="">
+        <fieldset>
+          <legend class="form__legend">
+            Напиши свое сообщение, и мы постараемся дать ответ в самое ближайщее время
+          </legend>
+          <input class="form__input" type="text" name="name" placeholder="Ваше имя">
+          <select name="problems" id="problems" class="form__select">
+            <option value="Тема обращения">Тема обращения</option>
+            <option value="Предложение">Предложение</option>
+            <option value="Проблема">Проблема</option>
+            <option value="Оплата">Оплата</option>
+            <option value="Другое">Другое</option>
+          </select>
+          <textarea class="form__text" name="user" id="message" rows="3" placeholder="Текст сообщения"></textarea>
+        </fieldset>
+        <button class="button form__button" type="submit">Отправить</button>
+      </form>
+    </div>
+
+  </main>
+
+
+
+</body>
+
+</html>
