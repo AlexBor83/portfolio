@@ -1,13 +1,11 @@
 body {
-  min-width: 1020px;
   margin: 0;
   padding: 0;
-  padding-top: 64px;
-  font-family: 'Manrope', Arial, sans-serif;
+  font-family: 'Manrope', sans-serif;
   font-size: 24px;
   line-height: 110%;
   font-weight: 500;
-  background-color: #000000;
+  background-color: #140e17;
   min-height: 100%;
   color: #fff;
   box-sizing: border-box;
@@ -36,18 +34,14 @@ input[type='radio'].visually-hidden {
 }
 
 .container {
-  width: 1000px;
-  margin: 0 auto;
+  max-width: 1020px;
+  margin: 64px auto;
   padding: 0 10px;
 }
 
 .aboutme {
   display: flex;
-  margin-bottom: 80px;
-}
-
-.aboutme__wrap {
-  padding-left: 112px;
+  gap: 112px;
 }
 
 .aboutme__name {
@@ -88,14 +82,10 @@ input[type='radio'].visually-hidden {
 .button::after {
   content: '';
   position: absolute;
-  background-image: url(/img/Icon-arrow.svg);
+  background-image: url(../img/Icon-arrow.svg);
   width: 24px;
   height: 24px;
   right: 14px;
-}
-
-.social {
-  margin-bottom: 64px;
 }
 
 .social__text {
@@ -137,27 +127,27 @@ input[type='radio'].visually-hidden {
 }
 
 .social__item--linkedin::before {
-  background-image: url(/img/Icon-linkedin.svg);
+  background-image: url(../img/Icon-linkedin.svg);
 }
 
 .social__item--github::before {
-  background-image: url(/img/Icon__git.svg);
+  background-image: url(../img/Icon__git.svg);
 }
 
 .social__item--instagram::before {
-  background-image: url(/img/Icon-instagram.svg);
+  background-image: url(../img/Icon-instagram.svg);
 }
 
 .social__item--telegram::before {
-  background-image: url(/img/Icon-telegram.svg);
+  background-image: url(../img/Icon-telegram.svg);
 }
 
 .social__item--twitter::before {
-  background-image: url(/img/Icon-twitter.svg);
+  background-image: url(../img/Icon-twitter.svg);
 }
 
 .social__item--youtube::before {
-  background-image: url(/img/icon-youtube.svg);
+  background-image: url(../img/icon-youtube.svg);
 }
 
 .social__link {
@@ -174,7 +164,6 @@ input[type='radio'].visually-hidden {
   border-radius: 32px;
   border: 1px solid var(--black-low, #333);
   padding: 24px;
-  margin-bottom: 64px;
 }
 
 .skills__text {
@@ -190,7 +179,6 @@ input[type='radio'].visually-hidden {
   border-radius: 32px;
   border: 1px solid var(--black-low, #333);
   padding: 24px;
-  margin-bottom: 64px;
 }
 
 .works__title {
@@ -204,14 +192,9 @@ input[type='radio'].visually-hidden {
   margin: 0;
   padding: 0;
   list-style: none;
-}
-
-.works__item {
-  margin-bottom: 28px;
-}
-
-.works__item:last-child {
-  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
 }
 
 .works__subtitle {
@@ -236,10 +219,6 @@ input[type='radio'].visually-hidden {
   margin-top: 8px;
 }
 
-.portfolio {
-  margin-bottom: 220px;
-}
-
 .portfolio__title {
   font-size: 24px;
   font-weight: 600;
@@ -248,6 +227,9 @@ input[type='radio'].visually-hidden {
 }
 
 .portfolio__list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -258,17 +240,16 @@ input[type='radio'].visually-hidden {
   background: #d4d3fb;
   display: flex;
   padding: 32px;
-  margin-bottom: 24px;
-}
-
-.portfolio__item:last-child {
-  margin-bottom: 0;
+  gap: 48px;
+  align-items: center;
 }
 
 .portfolio__wrap {
-  margin-left: 48px;
   color: #000;
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .portfolio__subtitle {
@@ -276,14 +257,11 @@ input[type='radio'].visually-hidden {
   font-style: normal;
   font-weight: 700;
   margin: 0;
-  margin-top: 42px;
-  margin-bottom: 18px;
 }
 
 .portfolio__text {
   font-size: 18px;
   margin: 0;
-  margin-bottom: 18px;
 }
 
 .portfolio__link {
