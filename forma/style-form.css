@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  background-color: #140e17;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.form__wrap {
+  max-width: 1000px;
+  border-radius: 32px;
+  border: 1px solid #f5fa93;
+  padding: 32px;
+  margin: 64px auto;
+  box-sizing: border-box;
+}
+
+.form__img {
+  display: inline-block;
+  margin-bottom: 44px;
+  width: 80px;
+  height: 40px;
+}
+
+.form__content {
+  width: 50%;
+}
+
+.form__title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.form__text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 144%;
+  margin-bottom: 24px;
+}
+
+.form__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.form__input,
+.form__select,
+.form__textarea {
+  width: 100%;
+  border-radius: 18px;
+  background: #fff;
+  min-height: 61px;
+  padding-left: 14px;
+  padding-right: 14px;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  color: #000;
+}
+
+.form__select {
+  appearance: none;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  color: #76757b;
+  background-image: url(./img/icon-arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 420px center;
+  background-size: 24px 24px;
+}
+
+.form__textarea {
+  padding: 18px 14px;
+  resize: none;
+}
+
+.form__input::placeholder,
+.form__textarea::placeholder {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+  color: #76757b;
+}
+
+.form__input:focus-visible,
+.form__textarea:focus-visible,
+.form__select:focus-visible {
+  outline: none;
+}
+
+.form__button {
+  background-color: inherit;
+  border: 1px solid #333;
+  border-radius: 18px;
+  padding: 18px 14px;
+  color: #fff;
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__button span {
+  padding-left: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.form__button:hover {
+  background-color: #f5fa93;
+  color: #000;
+}
+
+.form__button:hover svg {
+  fill: black;
+}
+
+.form__button:active .form__wrap {
+  display: none;
+}

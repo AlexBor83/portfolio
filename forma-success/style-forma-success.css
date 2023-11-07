@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Manrope', sans-serif;
+  background-color: #140e17;
+  color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.popup__wrap {
+  max-width: 1000px;
+  border-radius: 32px;
+  border: 1px solid #f5fa93;
+  padding: 32px;
+  margin: 64px auto;
+  box-sizing: border-box;
+}
+
+.popup__img {
+  display: inline-block;
+  margin-bottom: 44px;
+  width: 80px;
+  height: 40px;
+}
+
+.popup__content {
+  width: 50%;
+}
+
+.popup__title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 0;
+  margin-bottom: 18px;
+}
+
+.popup__text {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 144%;
+  margin-bottom: 24px;
+}
+
+.popup__button {
+  background-color: inherit;
+  border: 1px solid #333;
+  border-radius: 18px;
+  padding: 0;
+  width: 270px;
+}
+
+.popup__link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 14px;
+}
+
+.popup__link span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.popup__button:hover {
+  background-color: #f5fa93;
+}
+
+.popup__link:hover span {
+  color: #000;
+}
+
+.popup__link:hover svg {
+  fill: black;
+}
